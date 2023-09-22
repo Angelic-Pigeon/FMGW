@@ -1,0 +1,12 @@
+- homepage, four games, poker, blackjack, chess, prší, closest upcoming tournament (can click on to get redirected to tournament page)
+- background femboys playing poker at a poker table
+- tournament page - will show upcoming tournaments list, if a tournament is active then there will be a button to join it, if the registration time has ran out and the tournament is live, the button will be a watch tournament button, you can click on any of them to show more info on prize pool, registration start and end, times, how many places get paid and how much
+- tournaments - organized by us, tournament time, registration start, reg. end, point price to join, refund system, reward system for winners, the more registrations the more points in prize pool
+- win database - to keep track of who won, who shall advance to final table or next table at chess (swiss system), statistics, for refunds
+- user accounts - pfp, names, login, points
+- point system connected with account database
+- poker - 4 tables by 8 people each, visual represantation of tables with visible pfps, to join table click on empty seat spot
+- blackjack - same as poker 
+- chess - betting system, apply to tournament system (will add tag to database, so instead of view tournament button it will be join tournament button)
+- prší - only for fun play, no tournaments, playing for points - possibility to play without
+- for fun play - just for fun, possibility to create tables and join existing ones
