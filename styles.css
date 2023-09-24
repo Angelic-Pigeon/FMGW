@@ -1,0 +1,95 @@
+﻿body {
+    margin: 0;
+    background-color: #efd5ee
+}
+h1#testID
+{
+    text-decoration: line-through   
+}
+div#femboycube {
+    background-color: pink;
+    text-align:center;
+    font-size: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: block;
+    /*float: left;*/
+    /*border-radius: 50%;*/
+    border: 10px ridge #ff11fa;
+    transition:background-color 2s 0.3s
+}
+iframe{
+    font-size: 10px;
+
+}
+#femboycube:hover{
+    color:blue;
+    background-color:yellow;
+}
+#stupidButton{
+    width:200px;
+    height:50px;
+    float:right;
+}
+header{
+    background-color:#474747;
+    text-align:right;
+    padding-bottom:3px;
+    font-size:37px;
+    height:60px;
+}
+#headerButtonDiv1 {
+    margin-right: 3%;
+    float: right;
+    border-radius: 4.5px;
+}
+#headerButtonDiv2 {
+    margin-right: 3%;
+    float: right;
+    border-radius: 4.5px;
+}
+.button {
+    height: 50px;
+    display: block;
+    margin-top: 6px;
+    padding-left:15px;
+    padding-right:15px; 
+    border-radius:5px;
+    background-color: #848484;
+    border: none;
+    transition-duration: 0.4s;
+    font-size: 70%;
+}
+.button:hover{
+    background-color: #bbbbbb;
+    cursor: pointer;
+}
+#pfp {
+    padding-top: 4px;
+    width: 54px;
+    height: 54px;
+    float: right;
+    margin-right: 2%;
+    border-radius: 50px;
+    cursor: pointer;
+}
+#logoDiv {
+    float: left;
+    margin-left: 20px;
+    cursor: pointer;
+}
+#fmgw {
+    height: 54px;
+    width: 108px;
+}
+#redacted{
+    color:red;
+}
+#title {
+    font-weight: 600;
+    font-size: 50px;
+    font-style: italic;
+    font-family: 'Bodoni Moda', serif;
+    word-spacing: 20px;
+    text-align:center;
+}
