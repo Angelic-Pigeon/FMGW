@@ -2,7 +2,7 @@
 
 <html lang="en">
 <head>
-
+    <link rel="icon" type="image/png" sizes="64x64" href="fmgw_logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,500;1,6..96,500&display=swap" rel="stylesheet">
@@ -14,7 +14,14 @@
 <body>
     <header>
         <div id="logoDiv"><img id="fmgw" src="fmgw_logo.png" onclick="goToHome()"></div>
-        <div><img id="pfp"src="heterosexual_kiss.png"></div>
+        <div class="dropdown">
+            <button class="dropbtn"><img id="usrPfp" class="dropdown" src="default pfp.jpg"></button>
+            <div class="dropdown-content">
+                <button id="accountBtn" onclick=clickAccountBtn()>Account</button>
+                <button id="settingsBtn" onclick=clickSettingsBtn()>Settings</button>
+                <button id="logoutBtn" onclick=clickLogoutBtn()>Logout</button>
+            </div>
+        </div>
         <div id="headerButtonDiv1"><button class="button" onclick="goToTournaments()">Tournaments</button></div>
         <div id="headerButtonDiv2"><button class="button" onclick="goToHome()">Home</button></div>
     </header>

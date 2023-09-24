@@ -64,15 +64,6 @@ header{
     background-color: #bbbbbb;
     cursor: pointer;
 }
-#pfp {
-    padding-top: 4px;
-    width: 54px;
-    height: 54px;
-    float: right;
-    margin-right: 2%;
-    border-radius: 50px;
-    cursor: pointer;
-}
 #logoDiv {
     float: left;
     margin-left: 20px;
@@ -92,4 +83,45 @@ header{
     font-family: 'Bodoni Moda', serif;
     word-spacing: 20px;
     text-align:center;
+}
+.dropdown {
+    padding-top: 0px;
+    width: 43px;
+    height: 43px;
+    float: right;
+    margin-right: 5%;
+    border-radius: 35px;
+    cursor: pointer;
+    background-color: rgb(56, 56, 56);
+}
+.dropbtn {
+    background-color: #474747;
+    color: red;
+    padding: 10px;
+    padding-left: 17px;
+    border: none;
+    cursor: pointer;
+}
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgb(139, 139, 139);
+    min-width: 120px;
+    box-shadow: 0px 8px 16px 0px rgba(2, 2, 2, 0.1);
+    z-index: 1;
+}
+.dropdown-content button {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    text-align: left;
+}
+.dropdown-content button:hover {
+    background-color: rgb(108, 108, 108);
+}
+.dropdown:hover .dropdown-content {
+    display: block;
+}
+.dropdown:hover .dropbtn {
+    background-color: #696969;
 }
