@@ -1,0 +1,41 @@
+﻿body {
+    margin: 0;
+    background-color: #efd5ee
+}
+h1#testID
+{
+    text-decoration: line-through   
+}
+div#femboycube {
+    background-color: pink;
+    text-align:center;
+    font-size: 50px;
+    margin-left: 20%;
+    margin-right: 20%;
+    display: block;
+    /*float: left;*/
+    /*border-radius: 50%;*/
+    border: 10px ridge #ff11fa;
+    transition:background-color 2s 0.3s
+}
+iframe{
+    font-size: 10px;
+
+}
+#femboycube:hover{
+    color:blue;
+    background-color:yellow;
+}
+#stupidButton{
+    width:200px;
+    height:50px;
+    float:right;
+}
+header{
+    background-color:rebeccapurple;
+    padding:30px;
+    text-align:center;
+    color:antiquewhite;
+    font-size:50px;
+    
+}
