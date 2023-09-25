@@ -124,7 +124,7 @@ header{
     background-color: rgb(108, 108, 108);
 }
 .dropdown:hover .dropdown-content {
-    top: 6%;
+    top: 62px;
     z-index: 1;
 }
 .dropbtn dropdown:hover {
