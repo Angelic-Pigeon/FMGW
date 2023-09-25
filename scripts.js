@@ -21,3 +21,8 @@ function clickSettingsBtn() {
 function clickLogoutBtn() {
 	
 }
+function dimFix(element) {
+	var position = document.getElementById(element).position;
+	console.log(position);
+	
+}
