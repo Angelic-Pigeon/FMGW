@@ -10,6 +10,31 @@
     <title>FMGW</title>
     <link rel="stylesheet" href="styles.css">
     <script type="text/javascript" src="scripts.js"></script>
+
+
+    <script type="module">
+        // Import the functions you need from the SDKs you need
+        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
+        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
+        // TODO: Add SDKs for Firebase products that you want to use
+        // https://firebase.google.com/docs/web/setup#available-libraries
+
+        // Your web app's Firebase configuration
+        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+        const firebaseConfig = {
+            apiKey: "AIzaSyAGn--SFpdSUQ4L-x3T5APovRqXegamDQM",
+            authDomain: "ap-fmgw.firebaseapp.com",
+            projectId: "ap-fmgw",
+            storageBucket: "ap-fmgw.appspot.com",
+            messagingSenderId: "26962639616",
+            appId: "1:26962639616:web:e653354e861fc4dec991e5",
+            measurementId: "G-XM4CX60T1Y"
+        };
+
+        // Initialize Firebase
+        const app = initializeApp(firebaseConfig);
+        const analytics = getAnalytics(app);
+    </script>
 </head>
 <body>
     <header>
@@ -27,29 +52,10 @@
     </header>
     <div id="title"><span id="redacted">F[REDACTED] MADE </span>GAMBLING WEBSITE</div>
     <div id="tourneyWarning"></div>
-    
-    <script type="module">
-        // Import the functions you need from the SDKs you need
-        import { initializeApp } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-app.js";
-        import { getAnalytics } from "https://www.gstatic.com/firebasejs/10.4.0/firebase-analytics.js";
-        // TODO: Add SDKs for Firebase products that you want to use
-        // https://firebase.google.com/docs/web/setup#available-libraries
-      
-        // Your web app's Firebase configuration
-        // For Firebase JS SDK v7.20.0 and later, measurementId is optional
-        const firebaseConfig = {
-          apiKey: "AIzaSyAGn--SFpdSUQ4L-x3T5APovRqXegamDQM",
-          authDomain: "ap-fmgw.firebaseapp.com",
-          projectId: "ap-fmgw",
-          storageBucket: "ap-fmgw.appspot.com",
-          messagingSenderId: "26962639616",
-          appId: "1:26962639616:web:e653354e861fc4dec991e5",
-          measurementId: "G-XM4CX60T1Y"
-        };
-      
-        // Initialize Firebase
-        const app = initializeApp(firebaseConfig);
-        const analytics = getAnalytics(app);
-      </script>
+    <!-->this needs to be with images (custommade labels)</!-->
+    <div class="gameButtonDiv">POKER</div>
+    <div class="gameButtonDiv">BLACK<br>JACK</div>
+    <div class="gameButtonDiv">CHESS</div>
+    <div class="gameButtonDiv">adfiadfi</div>
 </body>
 </html>
