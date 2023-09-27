@@ -10,7 +10,7 @@ function goToTournaments()
 }
 function changePfp() {
 	var pfp = document.getElementById("usrPfp");
-	pfp.src = "heterosexual_kiss.png";
+	pfp.src = "img/heterosexual_kiss.png";
 }
 function clickAccountBtn() {
 	
