@@ -144,7 +144,7 @@ header{
     text-align: center;
     transition-duration: 0.4s;
 }
-    .gameButtonDiv:hover {
+.gameButtonDiv:hover {
         width: 18%;
         height: 18%;
         padding: 1%;
@@ -152,7 +152,7 @@ header{
         margin-left: 6%;
         cursor: pointer;
         color: red;
-    }
+}
 #pokerLabel {
     width: 100%;
     height: 100%;
@@ -166,3 +166,30 @@ header{
 #dim:hover {
     box-shadow: 0 0 0 10000vmax rgba(0,0,0,0.8);
 }
+.gameTable {
+    width: 100%;
+    height: 70%;
+    transition-duration: 0.4s;
+}
+.tableSelectDiv {
+    float: left;
+    font-size: 200%;
+    margin-left: 8.7%;
+    border-style: outset;
+    border-width: 5px;
+    border-color: gray;
+    width: 13%;
+    height: 13%;
+    margin-top: 10%;
+    text-align: center;
+    transition-duration: 0.4s;
+}
+    .tableSelectDiv:hover {
+        width: 18%;
+        height: 18%;
+        padding: 1%;
+        margin-top: 6%;
+        margin-left: 6%;
+        cursor: pointer;
+        color: red;
+    }

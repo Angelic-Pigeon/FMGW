@@ -5,8 +5,33 @@
     <meta charset="utf-8">
     <title>Table select</title>
     <link href="CSS/styles.css" rel="stylesheet">
+    <script type="text/javascript" src="JS/scripts.js"></script>
 </head>
-<body>
-
+<!-- found out that with this you can run a function when the site is opened -->
+<body onload="isThereAnAstolfo()">
+    <header>
+        <div id="logoDiv"><img id="fmgw" src="img/fmgw_logo.png" onclick="goToHome()"></div>
+        <div class="dropdown">
+            <button class="dropbtn"><img id="usrPfp" class="dropdown" src="img/default pfp.jpg"></button>
+            <div class="dropdown-content">
+                <button id="accountBtn" onclick=clickAccountBtn()>Account</button>
+                <button id="settingsBtn" onclick=clickSettingsBtn()>Settings</button>
+                <button id="logoutBtn" onclick=clickLogoutBtn()>Logout</button>
+            </div>
+        </div>
+        <div id="headerButtonDiv1"><button class="button" onclick="goToTournaments()">Tournaments</button></div>
+        <div id="headerButtonDiv2"><button class="button" onclick="goToHome()">Home</button></div>
+    </header>
+    <!--also for expansion and implementic dynamic table list this needs to be changed-->
+    <!--temporary only 1 button works to send to a poker game-->
+    <div class="tableSelectDiv" onclick="openPokerGame()">
+        <img src="img/table.png" class="gameTable">
+    </div>
+    <div class="tableSelectDiv">
+        <img src="img/table.png" class="gameTable">
+    </div>
+    <div class="tableSelectDiv">
+        <img src="img/table.png" class="gameTable">
+    </div>
 </body>
 </html>
